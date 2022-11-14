@@ -20,7 +20,7 @@ npm install -g resume-cli
 Clone the repository
 
 ```
-git clone https://github.com/francescoes/jsonresume-theme-stackoverflow.git
+git clone https://github.com/chriscarreau/jsonresume-theme-stackoverflow-fr.git
 ```
 
 Create a 'resume.json' file in the current folder and follow the [json resume schema](https://jsonresume.org/schema/)
@@ -37,39 +37,17 @@ and simply run:
 resume serve --theme .
 ```
 
-### Social Profiles Icons
+### French specifics
+Because the css was using the Skills level to change the look of the page, I had to add a few french keywords equivalent
 
-**Profiles supported with brand colors:**
-
-Please note that all the [Font awesome brands icons](https://fontawesome.com/search?s=brands) are supported. Although only the ones listed below have a color code associated with it in my CSS file:
-
-github, stack-overflow, linkedin, dribbble, twitter, facebook, pinterest, instagram, soundcloud, wordpress, youtube, flickr, google plus, tumblr, foursquare.
-
-To have a social icon close the social link profile (or username) it is enough to set a `network` the name of the Social Network (es: 'Stack Overflow'). I am replacing spaces with dashes (`-`) and transforming all the network name to all lowercase to match the Font awesome naming convention for brands icons.
-
-#### Support to extra fields
-
-With stackoverflow theme it is possible to add:
-
-- `keywords` to each 'work', 'publication' and 'volunteer' item
-- `summary` to each 'interests' and 'education' item
-- `birth` to 'basics' (might be commonly used in Europe)
-
-example of the extra `birth` object:
-
-```
-"birth": {
-  "place": "New York",
-  "state": "USA",
-  "date": "1988"
-}
-```
-
-## Contribution
-
-Fork the project, add your feature (or fix your bug) and open a pull request OR
-
-[Open an issue](https://github.com/francescoes/jsonresume-theme-stackoverflow/issues/new) if you find find or if you would like to have extra fields or changes 
+| English         | French |
+| -----------     | ----------- |
+| Native Speaker  | Langue Maternelle |
+| Master          | Expert | 
+| Advanced        | Avancé |
+| Fluent          | Courant |
+| Beginner        | Débutant |
+| Intermediate    | Intermédiaire |
 
 ## License
 
