@@ -667,7 +667,7 @@ section .location {
   .institution::before,
   .organization::before,
   .awarder::before {
-    content: "at ";
+    content: "à ";
   }
   .main-summary {
     padding: 0;
@@ -727,7 +727,7 @@ section .location {
     margin: 0.5em 0 0 0;
   }
   ul.keywords::before {
-    content: "Skills acquired: ";
+    content: "Compétences acquises: ";
   }
   #skills .keywords::before {
     content: none;
@@ -737,7 +737,7 @@ section .location {
     padding: 0;
   }
   ul.courses::before {
-    content: "Major courses: ";
+    content: "Cours principaux: ";
   }
   ul.keywords li:last-of-type::after,
   ul.courses li:last-of-type::after {

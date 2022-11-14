@@ -1,6 +1,8 @@
 const Handlebars = require('handlebars');
 const { readFileSync, readdirSync } = require('fs');
 const { join } = require('path');
+const moment = require('moment');
+moment.locale('fr');
 
 const HELPERS = join(__dirname, 'theme/hbs-helpers');
 
