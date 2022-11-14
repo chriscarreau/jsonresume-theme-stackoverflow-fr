@@ -1,8 +1,5 @@
-# Stack Overflow theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-stackoverflow.svg)](http://badge.fury.io/js/jsonresume-theme-stackoverflow)
 
-**Printable version with custom CSS**
-
-[DEMO](https://francesco.netlify.app/)
+# French version of the StackOverflow JsonResume theme
 
 ## Getting started
 
