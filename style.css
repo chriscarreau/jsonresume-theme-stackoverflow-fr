@@ -347,7 +347,7 @@ section .location {
 .institution::before,
 .organization::before,
 .awarder::before {
-  content: "at ";
+  content: "à ";
 }
 
 .company,
